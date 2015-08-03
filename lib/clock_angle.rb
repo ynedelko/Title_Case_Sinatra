@@ -9,7 +9,8 @@ class String
     if difference > 30
       difference = 60.-(difference)
     end
-    difference./(60.0)
+    fractional_difference = difference./(60.0)
+    360.0.*(fractional_difference)
   end
 end
 

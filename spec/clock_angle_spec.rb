@@ -18,7 +18,13 @@ describe('String#clock_angle') do
 #     expect(("3:46").clock_angle()).to(eq(29))
 #   end
 
-    it ("Finds fractional portion of an hour that the difference is") do
-      expect(("3:30").clock_angle()).to(eq(0.25))
+#    it ("Finds fractional portion of an hour that the difference is") do
+#      expect(("3:30").clock_angle()).to(eq(0.25))
+#    end
+
+    it ("Convert fractional portion of hour into degrees") do
+      expect(("3:30").clock_angle()).to(eq(90))
     end
+
+
 end
