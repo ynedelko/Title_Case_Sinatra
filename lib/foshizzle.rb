@@ -1,16 +1,18 @@
 class String
   define_method(:foshizzle) do
-      words = split(" ").each() do |word|
-        idx = 1
-        while idx.<(word.length())
-          if word[idx].eql?("s")
-            word[idx] = "z"
-          end
-          idx = idx.+(1)
+    words = []
+    split(" ").each() do |word|
+      idx = 1
+      while idx.<(word.length())
+        if word[idx].eql?("s")
+          word[idx] = "z"
         end
+        idx = idx.+(1)
       end
-      words.join(" ")
+      words.push(word)
     end
+    words.join(" ")
+  end
 end
 
 
