@@ -9,7 +9,7 @@ class String
     if difference > 30
       difference = 60.-(difference)
     end
-    difference
+    difference./(60.0)
   end
 end
 
