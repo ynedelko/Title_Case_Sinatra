@@ -16,3 +16,8 @@ FOSHIZZLE
 1. Changes all s's in a string to z's.
 2. Does not change s to z when it is first letter.
 3. Does not change s to z when capitalized.
+
+QUEEN
+1. If the enemy piece's x is equal to the queen's x, then it is in the queen's horizontal range
+2. If the enemy piece's y is equal to the queen's y, then it is in the queen's vertical range
+3. If |x1-x2| == |y1-y2| then the enemy piece is within the queen's diagonal range
