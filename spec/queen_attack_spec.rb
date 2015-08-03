@@ -11,4 +11,7 @@ describe('Array#queen_attack') do
   it ("Detects if there is a piece in the queen's diagonal range") do
     expect(([[2,4],[5,7]]).queen_attack()).to(eq(true))
   end
+  it ("If piece is not within queen's range, return false") do
+    expect(([[1,2],[2,4]]).queen_attack()).to(eq(false))
+  end
 end
