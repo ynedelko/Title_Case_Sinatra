@@ -8,4 +8,7 @@ describe('Array#queen_attack') do
   it ("Detects if there is a piece in the queen's vertical range") do
     expect(([[2,5],[4,5]]).queen_attack()).to(eq(true))
   end
+  it ("Detects if there is a piece in the queen's diagonal range") do
+    expect(([[2,4],[5,7]]).queen_attack()).to(eq(true))
+  end
 end
