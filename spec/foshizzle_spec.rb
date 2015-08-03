@@ -2,6 +2,9 @@ require('rspec')
 require('foshizzle')
 
 describe('String#foshizzle') do
+  it ("Does nothing if word has no s's") do
+    expect(("Rock").foshizzle()).to(eq("Rock"))
+  end
   it ("Changes each s in a word to z") do
     expect(("Hasselhoff").foshizzle()).to(eq("Hazzelhoff"))
   end
