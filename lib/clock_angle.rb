@@ -6,6 +6,10 @@ class String
     time_array[0] = time_array[0].to_i.*(5)
     time_array[1] = time_array[1].to_i
     difference = (time_array[1].-(time_array[0])).abs()
+    if difference > 30
+      difference = 60.-(difference)
+    end
+    difference
   end
 end
 

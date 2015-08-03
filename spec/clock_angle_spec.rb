@@ -10,7 +10,11 @@ describe('String#clock_angle') do
 #    expect(("3:45").clock_angle()).to(eq([15,45]))
 #  end
 
-  it ("Finds difference between hour hand and minute hand") do
-    expect(("3:46").clock_angle()).to(eq(31))
-  end
+#  it ("Finds difference between hour hand and minute hand") do
+#    expect(("3:46").clock_angle()).to(eq(31))
+#  end
+
+   it ("Finds smallest difference between minutes and hours hand") do
+     expect(("3:46").clock_angle()).to(eq(29))
+   end
 end
