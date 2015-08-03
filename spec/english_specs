@@ -1,0 +1,18 @@
+TITLE CASE
+1. Capitalizes first letter of a single word
+2. Capitalize each word of multiple words
+3. Does not capitalize specified articles
+4. Always capitalizes first letter of first word
+5. Does not change non-letter characters
+6. Downcases all letters
+
+PING PONG
+1. Counts from 1 to a given number
+2. Check for multiples of 3; replaces number with ping
+3. Check for multiples of 5; replaces number with pong
+4. Check for multiples of 3 & 5; replaces number with ping-pong
+
+FOSHIZZLE
+1. Changes all s's in a string to z's.
+2. Does not change s to z when it is first letter.
+3. Does not change s to z when capitalized.
